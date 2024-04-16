@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="todo-container">
+        <div id="header">
+            
+
+    </div>
+    <h1 id="todo">To Do list </h1>
+    <img src="images\images.png">
+            
+
+    <div id="todo-form">
+        <input 
+        type="text"
+        class="input-item"
+        name="input_box"
+        id="input-box"
+        placeholder="Add Task"
+        />
+        <button id="input-button" onclick="addTask()">Add</button> 
+               
+        <h2>Task List</h2>
+        <ul id="list-container"></ul>
+        
+        <hr />
+
+<div class="counter-container">
+  <div id="task-counters">
+    Completed: <span id="completed-counter">0</span> | Uncompleted:
+    <span id="uncompleted-counter">0</span>
+  </div>
+</div>
+
+    </div> 
+
+    <script src="script.js"></script>
 </body>
 </html>
